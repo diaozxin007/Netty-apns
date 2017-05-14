@@ -1,6 +1,6 @@
-##This a netty apns.
+#This a java apns client.
 
-##Test:
+#Test:
 ```java
 public class apnsTest {
 
@@ -29,6 +29,7 @@ public class apnsTest {
         payload.setBadge(Integer.valueOf(1));
         apnsService.sendNotification(token, payload);
         Thread.sleep(800000);
+    }
     }
 
 
