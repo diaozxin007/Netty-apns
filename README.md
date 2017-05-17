@@ -1,6 +1,6 @@
-#This a java apns client.
+# This a java apns client.
 
-#Test:
+# Test:
 ```java
 public class apnsTest {
 
@@ -30,7 +30,7 @@ public class apnsTest {
         apnsService.sendNotification(token, payload);
         Thread.sleep(800000);
     }
-    }
+}
 
 
 ```
